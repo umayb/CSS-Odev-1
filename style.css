@@ -1,15 +1,76 @@
 body {
-    background-color: #5F0F40;
+    background-color: #f4f3f1;
+    background-image: url("img/2.avif");
+    background-size: auto;
+   
 }
 
 h1 {
     text-align: center;
-    margin-left: 3mm;
+    padding: 25px;
     font-family: 'Josefin Sans', sans-serif;
-    color: #FB8B24; }
+   background-color: #333333 ;
+   margin: -16px;
+   font-size: 300%;
+   font-weight: 800;
+    color: #f4f3f1;
+    margin-left: 0pc;
+    margin-right: 0pc ; }
 
-    h2 {
-        text-align: left;
-        margin-left: 3mm;
-        font-family: 'Josefin Sans', sans-serif;
-        color: #FB8B24; }
+
+    
+
+h2 {
+   text-align: left;
+   margin-left: 3mm;
+   font-family: 'Josefin Sans', sans-serif;
+   font-style: normal;
+   margin-left: 0pc;
+    margin-right: 0pc ;
+   color: #333333; }
+
+
+li { 
+   font-family: 'Josefin Sans', sans-serif;
+   margin-left: 0pc;
+ margin-right: 0pc ;
+   
+
+}
+
+ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    margin-left: 0pc;
+    margin-right: 0pc ;
+}
+
+p {
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+a:link1 {
+    color: #00013c;
+  }
+  
+  /* visited link */
+  a:visited {
+    color: #ff7b00;
+  }
+  
+  /* mouse over link */
+  a:hover {
+    color: #ff0080;
+    background-color: #333333 ;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block
+  }
+  
+  /* selected link */
+  a:active {
+    color: blue;
+   
+    
+}

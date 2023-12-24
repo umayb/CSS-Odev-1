@@ -1,27 +1,65 @@
 <!DOCTYPE html>
 <html lang="tr">
 <head>
+
+    </style>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title> 2023'ün En'leri | Umay </title>
     <link rel="stylesheet" href="style.css">
 </head>
+
+
 <body>
+    
     <link rel="stylesheet" href="style.css">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@700&display=swap');
+
+        ul {
+            display:flex; 
+            background-color: #333333;
+            background-size:cover;
+}
+
+li {
+  float: none;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: justify;
+  padding: 16px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: #111111;
+}
+        </style>
+
 
     <!-- 2023 Enleri
          Müzik
          Renk
          Mekan
         -->
-   <h1> 2023 "En"lerim </h1>
-   
-    <p style="margin:0;display:inline;float:left"><a href="#playlist">En Çok Dinlediğim Playlist</a></p>
-    <p style="margin:0;display:inline:float:center"><a href="">En Çok Kullandığım Renk</a></p>
-    <p style="margin:0;display:inline:float:right"><a href="">En Çok Gittiğim Mekan</a></p>
-   
 
-    <h2 id="playlist"> 2023'te En Çok Dinlediğim Playlist </h2>
+
+   <h1 style="background-image: url('img/LightBlue-Blue-Pink.jpg'); background-size: cover;"> 2023 "En"lerim </h1>
+
+   
+   <ul>
+    <li><a href="#playlist">En Çok Dinlediğim Playlist</a></li>
+    <li><a href="#renk">En Sevdiğim Renkler</a></li>
+    <li><a href="#mekan">En Sık Gittiğim Mekan</a></li>
+   </ul>
+   
+   <br> 
+
+
+    <h2 id="playlist"> En Çok Dinlediğim Playlist </h2>
 
     <!-- Spotify Web Player || confusion -->
     <iframe style="border-radius:12px" 
@@ -30,13 +68,29 @@
     allow="autoplay; clipboard-write; encrypted-media;s fullscreen; picture-in-picture" 
     loading="lazy"></iframe>
 
-    <h2>En Çok Kullandığım Renk</h2>
-    <h2>En Çok Gittiğim Mekan</h2>
+    <br>
+    <br>
+
+
+    <h2 id="renk">En Sevdiğim Renkler</h2>
+    <img src="img/pantone-color-chip-pq-3435c.webp" width="250">
+
+
+    <br>
+    <br>
+
+
+    <h2 id="mekan">En Sık Gittiğim Mekan: <span style="font-style: normal;">'78 Coffee | Eskişehir</span></h2>
+
+    <p style="font-weight: lighter;">'78 Coffee'nin websitesine gitmek için <a href="https://1978coffee.com/" target="_blank" >tıklayın</a>. </p>
+
     <img src="img/78-2.jpg" width="900">
+
     <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3066.1689514690815!2d30.511937076567406!3d39.
                  78076367154905!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x14cc15e31a97a239%3A0x902705daa5027dcb!2s&#39;
                  78%20Coffee%20Ba%C4%9Flar!5e0!3m2!1str!2str!4v1703326310421!5m2!1str!2str" width="600" height="450" style="border:0;" 
                  allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" align="right" ></iframe>
-
+    
+    
 </body>
 </html>
